@@ -1,0 +1,264 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,400;1,500&display=swap'); */
+
+.App {
+  text-align: center;
+}
+body{
+  /* font-family: "Titillium Web", sans-serif; */
+  /* font-family: 'Josefin Slab';
+  font-weight: 600; */
+  font-style: normal;
+}
+/* navigation start */
+.navigation{
+  font-family: 'Josefin Slab';
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #F2731B;
+  height: 60px;
+  color: white;
+  position: sticky;
+}
+.navigation .nav-link{
+  color: wheat;
+}
+/* navigation end */
+/* hero-section start */
+.hero-section{
+  width: 100%;
+  height: 600px;
+  background:  #F5ECDB;
+}
+.hero-section {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.hero-section  h1{
+  font-size: 45px;
+  padding: 20px;
+}
+.hero-section .circle{
+  width: 200px;
+  height: 200px;
+  background-color: blanchedalmond;
+  border-radius: 50%;
+  border: 1px solid rgb(231, 211, 211);
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.circle img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+.circle img:hover{
+  transition: transform 0.5s ease-in-out;
+  transform: scale(0.9);
+}
+.text-section{
+  text-align: center; 
+}
+.text-section h4,h1{
+  font-family:'Josefin Slab';
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+button{
+  text-align: center;
+  width: 150px;
+  height: 40px;
+}
+/* my projects */
+.project-section{
+  width: 700px;
+}
+.container1 {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: 350px;
+  border-radius: 30px;
+  margin: 40px;
+  /* border: 1px solid black; */
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.overlay {
+  border-radius: 30px;
+  border-radius: 30px;
+  margin: 40px;
+  position: absolute;
+  bottom: 0;
+  left: 100%;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 0;
+  height: 350px;
+  transition: .5s ease;
+}
+
+.container1:hover .overlay {
+  width: 100%;
+  left: 0;
+}
+
+
+/* .container1:hover .overlay {
+  opacity: 0.2;
+} */
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+}
+/* skills */
+.description{  
+  height: 600px;
+}
+h2{
+  font-family: 'Josefin Slab';
+  font-weight: 600;
+  font-size: 40px;
+  text-align: center;
+  margin: 20px;
+  padding: 70px;
+}
+.services{
+  margin-top: 40px;
+  padding: 20px;
+  background: #fff0f0;
+  margin: auto;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services .item{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 10px;
+  margin: 20px;
+  width:250px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.services .item  h3{
+  font-family: 'Josefin Slab';
+  font-weight: 600;
+  padding: 18px;
+  text-align:center;
+}
+.services img{
+  width: 50px;
+}
+/* .ArrowArea{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #9A9EA7;
+  padding-top: 15px;
+}
+.ArrowArea span{
+  background: #F5F6F7;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+} */
+/* skills */
+/* project-section */
+.project-section{
+  /* width: 80%;
+  display: flex;
+  justify-content: center; */
+  /* flex-direction: column; */
+}
+/* my projects */
+/* .left-div{
+  margin: 20px ;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  background-color: transparent;
+  border: 1px solid rgb(219, 200, 200);
+  width: 450px;
+  height: 60px;
+  padding: 10px;
+}
+ .left-div a{
+  padding-top: 15px;
+  width: 100px;
+  height: 50px;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  border-radius: 20px;  
+}
+<div class="left-div">
+                    <p>zannatulmawa38@gmail.com</p>
+                    <a href="#">Copy</a>
+                    <a href="#">CV</a>   
+                </div> */
+/* hero-section end */
+/* */
+/* .footer-section */
+.footer{
+  background: #000000;
+  width: 100%;
+}
+.box{
+  width: 50px;
+  height: 5px;
+  background: rgb(133, 82, 82);
+  border-radius: 20px;
+}
+.footer-section{
+  margin: auto;
+  width: 70%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: rgb(173, 157, 157);
+}
+.footer-section {
+text-align: center;
+}
+.footer-section a{
+  display: block;
+  padding: 20px;
+  font-size: 14px;
+  text-align: left;
+}
+.footer-section button{
+  margin: 20px;
+}

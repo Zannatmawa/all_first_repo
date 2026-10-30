@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@300;400;600;700&display=swap');
+body {
+  margin: 0;
+  
+  font-weight: 600;
+  font-family: -apple-system, BlinkMacSystemFont, 'Josefin Slab', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+   /* background-color: rgb(73, 63, 52); */
+  /* background: linear-gradient(90deg, rgba(238,174,237,1) 0%, rgba(148,187,233,1) 100%); */
+  height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.about{
+    font-family:'Josefin Slab';
+    font-weight: 600;
+    background: transparent ;
+    width: 100%;
+    height: 500px; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: auto;
+     display: flex;
+   justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.about .left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about .right{
+  /* width: 600px; */
+  /* background:rebeccapurple; */
+}
+.about img{
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+/* .projects{
+  margin: auto;
+  background: #EE534F ;
+  width: 70%;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+} */
+/* .container1 {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+} */
+.list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  
+  width: 600px;
+  margin: auto;
+}
+.list li{
+  background-color: blueviolet;
+  width: 250px;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+/* #DDEE9E
+#F8C29D
+
+#FB8C00
+#EE534F
+*/
+
+/* 
+<div className="container1">
+            <img src={laptop} alt="Avatar" className="image" style={{width:'50%'}}/>
+           <div className="middle">
+           <div className="text">John Doe</div>
+             </div>
+            </div>  */
